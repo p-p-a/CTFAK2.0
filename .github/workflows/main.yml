@@ -29,4 +29,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
        name: CTFAK_release
-       path: CTFAK\bin\Release      
+       path: CTFAK\bin\Release\net6.0-windows\      
