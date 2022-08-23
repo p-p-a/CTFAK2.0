@@ -1,7 +1,10 @@
 name: Building
 
-on: [push]
-
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - 'CTFAK2.0/2.5+'
 env:
   SOLUTION_FILE_PATH: .
   
