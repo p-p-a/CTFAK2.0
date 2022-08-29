@@ -10,7 +10,7 @@
     </ItemGroup>
 
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-      <Exec Command="copy &quot;D:\a\CTFAK2.0\CTFAK2.0\Plugins\EventPreprocessor\bin\Debug\net6.0-windows\EventPreprocessor.dll&quot; &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\CTFAK.Cli\bin\Debug\net6.0-windows\Plugins\EventPreprocessor.dll&quot;&#xA;copy &quot;D:\a\CTFAK2.0\CTFAK2.0\Plugins\EventPreprocessor\bin\Debug\net6.0-windows\EventPreprocessor.pdb&quot; &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\CTFAK.Cli\bin\Debug\net6.0-windows\Plugins\EventPreprocessor.pdb&quot;" />
+      <Exec Command="copy &quot;D:\a\CTFAK2.0\CTFAK2.0\Plugins\EventPreprocessor\bin\Debug\net6.0-windows\EventPreprocessor.dll&quot; &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\CTFAK.Cli\bin\x64\Release\net6.0-windows\Plugins\EventPreprocessor.dll&quot;&#xA;copy &quot;D:\a\CTFAK2.0\CTFAK2.0\Plugins\EventPreprocessor\bin\Debug\net6.0-windows\EventPreprocessor.pdb&quot; &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\CTFAK.Cli\bin\x64\Release\net6.0-windows\Plugins\EventPreprocessor.pdb&quot;" />
     </Target>
 
 </Project>
