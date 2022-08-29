@@ -12,7 +12,7 @@
   </ItemGroup>
 
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-      <Exec Command="copy &quot;D:\a\CTFAK2.0\CTFAK2.0\Plugins\Dumper\bin\Debug\net6.0-windows\Dumper.dll&quot; &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\CTFAK.Cli\bin\x64\Release\net6.0-windows\Plugins\Dumper.dll&quot;&#xA;copy &quot;D:\a\CTFAK2.0\CTFAK2.0\Plugins\Dumper\bin\Debug\net6.0-windows\Dumper.pdb&quot; &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\CTFAK.Cli\bin\x64\Release\net6.0-windows\Plugins\Dumper.pdb&quot;" />
+      <Exec Command="copy &quot;D:\a\CTFAK2.0\CTFAK2.0\Plugins\Dumper\bin\Release\net6.0-windows\Dumper.dll&quot; &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\CTFAK.Cli\bin\x64\Release\net6.0-windows\Plugins\Dumper.dll&quot;&#xA;copy &quot;D:\a\CTFAK2.0\CTFAK2.0\Plugins\Dumper\bin\Release\net6.0-windows\Dumper.pdb&quot; &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\CTFAK.Cli\bin\x64\Release\net6.0-windows\Plugins\Dumper.pdb&quot;" />
     </Target>
    
 </Project>
