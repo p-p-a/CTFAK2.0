@@ -11,7 +11,8 @@
     <ProjectReference Include="..\..\Core\CTFAK.Core\CTFAK.Core.csproj" />
   </ItemGroup>
 
-
-
+       <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="copy &quot;D:\a\CTFAK2.0\CTFAK2.0\Plugins\CTFAK.Decompiler\bin\Debug\net6.0-windows\CTFAK.Decompiler.dll&quot; &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\CTFAK.Cli\bin\x64\Release\net6.0-windows\Plugins\EventPreprocessor.dll&quot;&#xA;copy &quot;D:\a\CTFAK2.0\CTFAK2.0\Plugins\CTFAK.Decompiler\bin\Debug\net6.0-windows\CTFAK.Decompiler.pdb&quot; &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\CTFAK.Cli\bin\x64\Release\net6.0-windows\Plugins\CTFAK.Decompiler.pdb&quot;" />
+    </Target>
 
 </Project>
