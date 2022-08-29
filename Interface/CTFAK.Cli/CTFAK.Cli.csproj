@@ -11,4 +11,8 @@
       <ProjectReference Include="..\..\Core\CTFAK.Core\CTFAK.Core.csproj" />
     </ItemGroup>
 
+      <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="copy &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\Plugins&quot; &quot;D:\a\CTFAK2.0\CTFAK2.0\Interface\CTFAK.Cli\bin\x64\Release\net6.0-windows\Plugins&quot;" />
+    </Target>
+    
 </Project>
