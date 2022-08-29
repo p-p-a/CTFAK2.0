@@ -3,7 +3,7 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net6.0-windows</TargetFramework>
-        <Platform>x64</Platform>
+        <Platforms>x64</Platforms>
         <Nullable>enable</Nullable>
         <ApplicationIcon>CTFAK2.ico</ApplicationIcon>
     </PropertyGroup>
